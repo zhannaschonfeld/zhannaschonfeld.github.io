@@ -1,0 +1,33 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import 'compass/reset';
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+$text-color: #222;
+$light-text-color: #fff;
+
+body {
+	font-family:lato, sans-serif;
+	font-size: 1em;
+	color:$light-text-color;
+}
+
+.hero {
+
+	color: $text-color;
+	padding-top: 20%;	
+  	background-image: url('../images/bg.jpg');
+  	background-position: 50% 50%;
+  	background-size: cover;
+  	background-attachment: fixed;
+}
+
+.info {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0 auto;
+}
